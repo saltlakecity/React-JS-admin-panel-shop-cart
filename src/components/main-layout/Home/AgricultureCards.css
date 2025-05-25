@@ -1,0 +1,69 @@
+.agrocards-container {
+    margin-top: 30vh;
+    height:20vh;
+    width:136vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.agrocards-grid {
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin-top: 128px;
+    gap:20px;
+}
+.agrocards-title {
+    position: absolute;
+    color:white;
+    font-size:64px;
+    font-weight: 500;
+}
+.agrocard {
+    position: relative;
+    width:49%;
+    height:46vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+.agrocard h3 {
+    font-size:32px;
+    font-weight:600;
+    margin-top: 130px;
+}
+.agrocard p {
+    font-size:24px;
+    font-weight:200;
+}
+.agrocard img {
+    position:absolute;
+    top: 20px;
+    left:10px;
+}
+.agrocard-item {
+    margin-left: 36px;
+    margin-top: 10px;
+}
+
+.whitebg {
+    background-color: white;
+}
+.whitebg p {
+    font-weight: 300;
+}
+
+.imgbg {
+    background-image: url('/agriculturecards-bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+}
+.imgbg2 {
+    background-image: url('/agriculturecards-bg2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+}

@@ -1,0 +1,106 @@
+[
+    {  
+    "id":1,
+    "type":"cereals",
+    "productLogo":"/product1.png",
+    "productTitle":"ОВЕС",
+    "productWeight":"1 кг",
+    "productPrice":"760 р."
+    },
+    {  
+    "id":2,
+    "type":"cereals",
+    "productLogo":"/product2.png",
+    "productTitle":"ПШЕНИЦА",
+    "productWeight":"2 кг",
+    "productPrice":"1000 р."
+    },
+    {  
+    "id":3,
+    "type":"cereals",
+    "productLogo":"/product3.png",
+    "productTitle":"КУКУРУЗА",
+    "productWeight":"1 кг",
+    "productPrice":"760 р."
+    },
+    {  
+    "id":4,
+    "type":"cereals",
+    "productLogo":"/product4.png",
+    "productTitle":"РИС",
+    "productWeight":"1 кг",
+    "productPrice":"760 р."
+    },
+    {  
+    "id":5,
+    "type":"cereals",
+    "productLogo":"/product5.png",
+    "productTitle":"ХУЙЛО",
+    "productWeight":"1 кг",
+    "productPrice":"760 р."
+    },
+    {  
+    "id":6,
+    "type":"cereals",
+    "productLogo":"/product6.png",
+    "productTitle":"ЯЧМЕНЬ",
+    "productWeight":"1 кг",
+    "productPrice":"760 р."
+    },
+    {  
+    "id":7,
+    "type":"vegetables",
+    "productLogo":"/product6.png",
+    "productTitle":"ЯЧМЕНЬ",
+    "productWeight":"1 кг",
+    "productPrice":"760 р."
+    },
+    {  
+    "id":8,
+    "type":"vegetables",
+    "productLogo":"/product6.png",
+    "productTitle":"ЯЧМЕНЬ",
+    "productWeight":"1 кг",
+    "productPrice":"760 р."
+    },
+    {  
+    "id":9,
+    "type":"vegetables",
+    "productLogo":"/product6.png",
+    "productTitle":"ЯЧМЕНЬ",
+    "productWeight":"1 кг",
+    "productPrice":"760 р."
+    },
+    {  
+    "id":10,
+    "type":"ready",
+    "productLogo":"/product6.png",
+    "productTitle":"ЯЧМЕНЬ",
+    "productWeight":"1 кг",
+    "productPrice":"760 р."
+    },
+    {  
+    "id":11,
+    "type":"ready",
+    "productLogo":"/product6.png",
+    "productTitle":"ЯЧМЕНЬ",
+    "productWeight":"1 кг",
+    "productPrice":"760 р."
+    },
+    {  
+    "id":12,
+    "type":"ready",
+    "productLogo":"/product6.png",
+    "productTitle":"ЯЧМЕНЬ",
+    "productWeight":"1 кг",
+    "productPrice":"760 р."
+    },
+    {  
+    "id":13,
+    "type":"ready",
+    "productLogo":"/product6.png",
+    "productTitle":"ЯЧМЕНЬ",
+    "productWeight":"1 кг",
+    "productPrice":"760 р."
+    }
+]

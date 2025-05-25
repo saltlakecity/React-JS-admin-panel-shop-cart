@@ -1,0 +1,116 @@
+.production-cards-container {
+    margin-top: 118vh;
+    height:20vh;
+    width:136vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.production-cards-title {
+    position: absolute;
+    color:white;
+    font-size:64px;
+    font-weight: 500;
+}
+.production-cards-cards {
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    height:60vh;
+    margin-top: 128px;
+    gap:20px;
+    color:white;
+}
+.card-description {
+    color:black;
+    background-color: #D4CF49;
+    padding: 60px;
+    border-radius: 30px;
+    font-size:24px;
+}
+.card-description p:nth-child(2) {
+    margin-top: 50px;
+}
+.card-description p:nth-child(1)::before {
+    content: 'GreenTaste — ';
+    font-weight: 500;
+}
+.card-description p:nth-child(2)::before {
+    content: 'Мы предоставляем: ';
+    font-weight: 500;
+}
+.production-cards-row1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height:100%;
+    width:49%;
+    gap: 20px;
+}
+.production-cards-row2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height:100%;
+    gap: 20px;
+    position: relative;
+}
+.production-cards-row2 .production-card {
+    display: flex;
+    width:67vh;
+    padding: 30px;
+    height: 100%;
+    
+    border-radius: 30px ;
+    align-items: center;
+
+}
+.production-cards-row2 .production-card:nth-child(1) {
+    background-image: url('/ProductionBG1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.production-cards-row2 .production-card:nth-child(2) {
+    background-image: url('/ProductionBG2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.production-cards-row2 .production-card:nth-child(3) {
+    background-image: url('/ProductionBG3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.production-cards-row2 .production-card p{
+    position: absolute;
+    right: 20px;
+    margin-top: 80px;
+    text-align: center;
+    background-color: #D4CF49;
+    padding: 20px;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+.production-card-link {
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:67vh;
+    padding: 50px;
+    border-radius: 30px;
+}
+.production-card-link a {
+    text-decoration: none;
+    color: black;
+    font-weight:500;
+    font-size: 24px;
+}
+.production-card-link img {
+    position: absolute;
+    right:70px;
+}

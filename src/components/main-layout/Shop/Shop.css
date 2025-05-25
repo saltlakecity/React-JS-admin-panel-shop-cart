@@ -1,0 +1,121 @@
+.shop-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    height:160vh;
+}
+.shop-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    width:136vh;
+    height: 136vh;
+}
+.shop-header h1 {
+    position: absolute;
+    top:30px;
+    left:30px;
+    font-size:64px;
+}
+.shop-buttons-row {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 128px;
+    left: 30px;
+    gap: 30px;
+}
+.shop-buttons-row button {
+    padding: 10px;
+    border-radius: 50px;
+    width:18vh;
+    font-size:24px;
+    background-color: #FFFDC1;
+}
+.shop-content {
+    left:30px;
+    top:212px;
+    width:136vh;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+.shop-item {
+    display: flex;
+    flex-direction: column;
+    color:white;
+    gap: 20px;
+}
+
+.shop-item-row1 {
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.shop-item-row1 p {
+    font-size:24px;
+    font-weight: 300;
+}
+
+.shop-item-row2 {
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: space-between;
+}
+.shop-item-row2 p {
+    font-size: 32px;
+    font-weight: 600;
+}
+.add-to-cart-btn {
+    font-size: 24px;
+    padding: 10px;
+    width: 20vh;
+    background-color: #D4CF49;
+    border-radius: 50px;
+    border: 1px solid #D4CF49;
+    cursor: pointer;
+}
+
+.shop-buttons-row button.active {
+    background: #45a049;
+    color: white;
+    border-color: #45a049;
+}
+
+.counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:20vh;
+    background-color: #FFFDC1;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.counter-btn {
+    border: none;
+    background-color: #FFFDC1;
+    font-size: 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    align-self: center;
+}
+
+.counter-value {
+    margin: 0 10px;
+    min-width: 10px;
+    text-align: center;
+    color:black;  
+    font-size: 24px;
+    font-weight: 600;
+}
+

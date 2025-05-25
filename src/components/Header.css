@@ -1,0 +1,125 @@
+.header-container {
+    position: relative;
+    width:100%;
+    height:auto;
+    min-height: 50vh;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    background-color: black;
+    background-image: url("/background.png");
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blackwave {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    z-index: -2;
+}
+.whiteline {
+    display: block;
+    background-color: white;
+    width:70%;
+    height:1px;
+    margin-top: 20px;
+}
+.header-firstline {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row ;
+    align-items: center;
+    text-align: center;
+    width:70%;
+
+}
+.header-firstline h1 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #E2D630;
+}
+.header-firstline-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width:40vh;
+}
+.header-firstline-links img:hover {
+    cursor: pointer;
+}
+.header-shop-button {
+    font-weight: 500;
+    font-size: 24px;
+    color:white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding-left: 65px;
+    padding-right:65px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-decoration: none;
+}
+.header-shop-button:hover {
+    cursor: pointer;
+}
+
+.header-secondline {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row ;
+    align-items: center;
+    text-align: center;
+    width:70%;
+    z-index: 1;
+}
+.header-secondline a {
+    font-weight: 400;
+    font-size:24px;
+    text-decoration: none;
+    color:white;
+    margin-top: 20px;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    color:white;
+    height:64vh;
+}
+.header-title h1 {
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.header-title p{
+    font-size:24px;
+    font-weight: 200;
+    letter-spacing: .5px;
+    margin-top: 30px;
+}
+
+.header-admin-button {
+    position: fixed;
+    font-weight: 500;
+    font-size: 12px;
+    color:white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    left:15px;
+    top:15px;
+}
