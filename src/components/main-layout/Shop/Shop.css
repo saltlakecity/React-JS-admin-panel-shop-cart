@@ -3,8 +3,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width:100%;
-    height:160vh;
+    width:180vh;
+    height:100%;
 }
 .shop-header {
     position: relative;
@@ -36,15 +36,15 @@
     background-color: #FFFDC1;
 }
 .shop-content {
-    left:30px;
+    left:-45px;
     top:212px;
-    width:136vh;
+    width:164vh;
     position: absolute;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
 }
 .shop-item {
     display: flex;
@@ -76,7 +76,7 @@
 .add-to-cart-btn {
     font-size: 24px;
     padding: 10px;
-    width: 20vh;
+    width: 25vh;
     background-color: #D4CF49;
     border-radius: 50px;
     border: 1px solid #D4CF49;
