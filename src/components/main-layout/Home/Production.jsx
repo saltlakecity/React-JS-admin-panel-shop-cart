@@ -1,6 +1,6 @@
 import React from "react";
 import "./Production.css";
-
+import { Link, useLocation } from "react-router-dom";
 export default function Production() {
   return (
     <div className="production-cards-container">
@@ -18,7 +18,9 @@ export default function Production() {
             </p>
           </div>
           <div className="production-card-link">
-            <a href="#">ПЕРЕЙТИ В МАГАЗИН</a>
+            <Link to="/shop" rel="stylesheet" href="">
+              ПЕРЕЙТИ В МАГАЗИН
+            </Link>
             <img src="/cards-arrow.svg" alt="/cards-arrow.svg" />
           </div>
         </div>
