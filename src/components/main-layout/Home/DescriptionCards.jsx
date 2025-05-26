@@ -1,6 +1,8 @@
 import React from "react";
 import "./DescriptionCards.css";
+import { Link, useLocation } from "react-router-dom";
 export default function DescriptionCards() {
+  const location = useLocation();
   return (
     <div className="cards-container">
       <div className="cards-firstline">
@@ -34,9 +36,9 @@ export default function DescriptionCards() {
           </p>
         </div>
         <div className="card link">
-          <a href="#">
+          <Link to="/about">
             ПОДРОБНЕЕ <br />О КОМПАНИИ
-          </a>
+          </Link>
           <img src="/cards-arrow.svg" alt="" />
         </div>
       </div>

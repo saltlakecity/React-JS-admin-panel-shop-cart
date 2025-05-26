@@ -1,13 +1,13 @@
 .production-cards-container {
-    margin-top: 118vh;
-    height:20vh;
+    margin-top: 30vh;
+    height:10vh;
     width:152vh;
     display: flex;
     flex-direction: column;
     position: relative;
 }
 .production-cards-title {
-    position: absolute;
+    position: relative;
     color:white;
     font-size:64px;
     font-weight: 500;

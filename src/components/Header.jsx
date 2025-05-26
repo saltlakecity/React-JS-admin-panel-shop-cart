@@ -1,9 +1,31 @@
 import React from "react";
 import "./Header.css";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 // находится выше папки main-layout потому что отрисовываться должен на каждой странице.
 export default function Header() {
   const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleSectionNavigation = (hash, e) => {
+    e.preventDefault();
+
+    if (location.pathname === "/") {
+      setTimeout(() => {
+        const element = document.getElementById(hash);
+        if (element) {
+          const headerHeight =
+            document.querySelector(".header-container")?.offsetHeight || 0;
+          const y = element.offsetTop - headerHeight + element.offsetHeight / 2;
+          window.scrollTo({
+            top: y,
+            behavior: "smooth",
+          });
+        }
+      }, 50);
+    } else {
+      navigate(`/#${hash}`);
+    }
+  };
   return (
     <div className="header-container">
       {/* Здесь ссылки через react-router, на страницы сайта*/}
@@ -30,9 +52,21 @@ export default function Header() {
 
         <Link to="/about">О нас</Link>
 
-        <Link to="/sustainable-agriculture">Устойчивое земледелие</Link>
-        <Link to="/products">Продукция</Link>
-        <Link to="/news">Новости</Link>
+        <Link
+          to="/#sustainable-agriculture"
+          onClick={(e) => handleSectionNavigation("sustainable-agriculture", e)}
+        >
+          Устойчивое земледелие
+        </Link>
+        <Link
+          to="/#products"
+          onClick={(e) => handleSectionNavigation("products", e)}
+        >
+          Продукция
+        </Link>
+        <Link to="/#news" onClick={(e) => handleSectionNavigation("news", e)}>
+          Новости
+        </Link>
         <Link to="/contacts">Контакты</Link>
         <Link to="/reviews">Отзывы</Link>
       </div>
