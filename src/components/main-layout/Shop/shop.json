@@ -35,7 +35,7 @@
     "id":5,
     "type":"cereals",
     "productLogo":"/product5.png",
-    "productTitle":"ХУЙЛО",
+    "productTitle":"ГОРОХ",
     "productWeight":"1 кг",
     "productPrice":"760 р."
     },
@@ -75,7 +75,7 @@
     "id":10,
     "type":"ready",
     "productLogo":"/product6.png",
-    "productTitle":"ЯЧМЕНЬ",
+    "productTitle":"ГОТОВОЕ",
     "productWeight":"1 кг",
     "productPrice":"760 р."
     },
@@ -83,7 +83,7 @@
     "id":11,
     "type":"ready",
     "productLogo":"/product6.png",
-    "productTitle":"ЯЧМЕНЬ",
+    "productTitle":"ГОТОВОЕ",
     "productWeight":"1 кг",
     "productPrice":"760 р."
     },
@@ -91,7 +91,7 @@
     "id":12,
     "type":"ready",
     "productLogo":"/product6.png",
-    "productTitle":"ЯЧМЕНЬ",
+    "productTitle":"ГОТОВОЕ",
     "productWeight":"1 кг",
     "productPrice":"760 р."
     },
@@ -99,7 +99,7 @@
     "id":13,
     "type":"ready",
     "productLogo":"/product6.png",
-    "productTitle":"ЯЧМЕНЬ",
+    "productTitle":"ГОТОВОЕ",
     "productWeight":"1 кг",
     "productPrice":"760 р."
     }
