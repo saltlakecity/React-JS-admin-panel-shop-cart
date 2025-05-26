@@ -90,44 +90,46 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/" element={<MainSection news={news} />} />
-          <Route path="/about" element={<About />} />
-          <Route
-            path="/admin"
-            element={
-              <Admin
-                news={news}
-                onAddNews={addNews}
-                onDeleteNews={deleteNews}
-              />
-            }
-          />
-          <Route
-            path="/shop"
-            element={
-              // Компонент Shop (магазин), передаю функции как пропс для счетчика, и функцию для добавления в корзину
-              <Shop
-                cartItems={cartItems}
-                onAddToCart={handleAddToCart}
-                onIncrement={handleIncrement}
-                onDecrement={handleDecrement}
-              />
-            }
-          />
-          <Route
-            path="/cart"
-            element={
-              <Cart
-                // Компонент Cart (корзина), передаю только функции как пропс для счетчика
-                cartItems={cartItems}
-                onIncrement={handleIncrement}
-                onDecrement={handleDecrement}
-              />
-            }
-          />
-        </Routes>
+        <div className="main-wrapper">
+          <Header />
+          <Routes>
+            <Route path="/" element={<MainSection news={news} />} />
+            <Route path="/about" element={<About />} />
+            <Route
+              path="/admin"
+              element={
+                <Admin
+                  news={news}
+                  onAddNews={addNews}
+                  onDeleteNews={deleteNews}
+                />
+              }
+            />
+            <Route
+              path="/shop"
+              element={
+                // Компонент Shop (магазин), передаю функции как пропс для счетчика, и функцию для добавления в корзину
+                <Shop
+                  cartItems={cartItems}
+                  onAddToCart={handleAddToCart}
+                  onIncrement={handleIncrement}
+                  onDecrement={handleDecrement}
+                />
+              }
+            />
+            <Route
+              path="/cart"
+              element={
+                <Cart
+                  // Компонент Cart (корзина), передаю только функции как пропс для счетчика
+                  cartItems={cartItems}
+                  onIncrement={handleIncrement}
+                  onDecrement={handleDecrement}
+                />
+              }
+            />
+          </Routes>
+        </div>
       </BrowserRouter>
     </>
   );

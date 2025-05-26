@@ -9,7 +9,7 @@ export default function Header() {
       {/* Здесь ссылки через react-router, на страницы сайта*/}
 
       <Link to="/admin" className="header-admin-button">
-        Администрирование
+        Админ
       </Link>
       <div className="header-firstline">
         <Link to="/" style={{ textDecoration: "none" }}>

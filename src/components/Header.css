@@ -3,9 +3,11 @@
     width:100%;
     height:auto;
     min-height: 50vh;
-    min-width: 100vh;
+    min-width: 100%; 
+    background-size: contain;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     align-items: center;
     padding: 32px;
     background-color: black;
@@ -13,6 +15,12 @@
     z-index: 0;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.header-firstline, 
+.header-secondline {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .blackwave {
@@ -48,7 +56,7 @@
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    width:40vh;
+    width:45vh;
 }
 .header-firstline-links img:hover {
     cursor: pointer;
@@ -122,4 +130,40 @@
     text-decoration: none;
     left:15px;
     top:15px;
+}
+
+@media (max-width: 768px) {
+  .header-firstline {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    font-size:16px;
+  }
+
+  .header-secondline {
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    padding: 10px 0;
+    font-size:16px;
+  }
+
+  .header-secondline a {
+    font-size: 16px !important;
+    margin: 0 5px;
+  }
+
+  .header-title h1 {
+    font-size: 2rem !important;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 1280px) {
+  .header-secondline {
+    gap: 10px;
+    font-size:12px;
+  }
+  .header-admin-button {
+    content:'Админ'
+  }
 }
